@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AttentionDeclarative.fs" />
+
+    <Compile Include="DebugUtils.fs" />
+
+    <Compile Include="GContainer.fs" />
+
+    <Compile Include="Term.fs" />
+    <Compile Include="TermUtils.fs" />
+    <Compile Include="Truth.fs" />
+    <Compile Include="Stamp.fs" />
+    <Compile Include="Sentence.fs" />
+    <Compile Include="SentenceUtils.fs" />
+
+    <Compile Include="GlobalConfig.fs" />
+
+    <Compile Include="Unifier.fs" />
+    <Compile Include="Rules.fs" />
+
+    <Compile Include="NEvent.fs" />
+    <Compile Include="VarIntro.fs" />
+    <Compile Include="VarUtils.fs" />
+    <Compile Include="GoalSystemUtils.fs" />
+    <Compile Include="Fifo.fs" />
+
+    <Compile Include="BeliefMem.fs" />
+    <Compile Include="BeliefMemGc.fs" />
+
+
+    <Compile Include="TaskPriorityQueue.fs" />
+
+    
+    <Compile Include="GoalSystem.fs" />
+    <Compile Include="GoalSystemGc.fs" />
+    <Compile Include="PerceiveModule.fs" />
+
+    <Compile Include="Nar.fs" />
+
+    <Compile Include="ManualDebugHelper.fs" />
+    <Compile Include="ManualTestNarDeriver_concludeFromImpl.fs" />
+
+    <Compile Include="SpatialModule.fs" />
+
+    <Compile Include="Vec2i.fs" />
+    <Compile Include="NarHelpers.fs" />
+    
+    <Compile Include="EnvWumpusA.fs" />
+    <Compile Include="AutoTestWumpusA.fs" />
+
+    <Compile Include="EnvMontezumaA.fs" />
+    <Compile Include="AutoTestMontezumaA.fs" />
+
+
+    <Compile Include="Nal9stdlibA.fs" />
+
+
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="C5" Version="2.5.3" />
+  </ItemGroup>
+
+</Project>
